@@ -1,6 +1,6 @@
 services:
   # A background worker that consumes a queue
-  - type: worker
+  - type: webservice
     name: UrlUploadBotV3
     env: python
     buildCommand: pip install -r requirements.txt
